@@ -1,0 +1,20 @@
+﻿Build started 3/6/2015 8:04:20 AM.
+     1>Project "C:\Users\Gregory\Desktop\2014-11-29-Arte_of_Defence\Arte_of_Defence\Arte_of_Defence.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Samurai_2_Project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\Samurai_2_Project.unsuccessfulbuild".
+         Touching "Debug\Samurai_2_Project.lastbuildstate".
+     1>Done Building Project "C:\Users\Gregory\Desktop\2014-11-29-Arte_of_Defence\Arte_of_Defence\Arte_of_Defence.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.43

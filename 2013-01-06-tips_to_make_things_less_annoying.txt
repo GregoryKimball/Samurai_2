@@ -1,0 +1,55 @@
+2013-01-06
+
+
+http://www.rastertek.com/tutdx11.html  is teh shit
+
+
+you need visual studio 2010 c++ to be able to compile this stuff   express edition is fine... for now
+and also the directx sdk
+comes with the DDS texture tool which is needed to convert PNG/BMP textures to the native DDS
+
+
+
+
+
+
+ok so blender has this command    ALT-G that takes an object and moves it to the world origin
+
+
+
+the world origin is the only one that makes for OBJ exporting
+
+****ALSO**** make sure to export mmodels to OBJ from blender rwith normals included,  did I say remember to do that?
+
+
+
+2013-12-26
+
+and CTRL-T converts a mesh into triangles
+
+and ALT SHIFT CTRL c allows you to set the 3d cursor as the origin or whatever
+
+blender couldn't save textures last i checked but its ok because you need DIRECTX TEXTURE TOOL to convert png to dds
+
+
+
+
+---------------------------------------------------------------------------------------------------------------
+Setting Up Visual Studio 2010
+In Visual Studio 2010 I used the following steps:
+First you need to create an empty Win32 project so select File -> New -> Project. Then select Win32 project from the choices. Give the project a name (I called mine Engine) and a location and then click on "Ok". Click "Next" and you will be given another menu. Under "Additional options" put a check mark in the "Empty project" box and click on "Finish" and then click "Next". You should now have an basic Win32 empty project setup.
+Now click "View" from the menu and select "Property Manager".
+Next click on the arrow to the left of your project name (mine was called Engine) in the property manager window on the left part of the screen. This will display the solution configurations you have.
+Select the "Debug | Win32" folder and double click "Microsoft.Cpp.Win32.user".
+In the window that pops up select "VC++ Directories" from the menu on the left side. This will then display the directories that the project uses.
+Now select "Include Directories" from the directory list and click on the down arrow that appears to the left. From the choices it pops up choose "Edit".
+Click on the folder icon at the top (called New Line if you mouse over it) and click on the "..." that appears to the right side.
+Navigate to the DirectX SDK include folder, different versions are named differently but on my system it was: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include
+Next click on "Select Folder" and then click "Ok".
+The libraries directory is also needed so now select "Library Directories" from the directory list and click on the down arrow that appears to the left. From the choices it pops up choose "Edit".
+Click on the folder icon at the top (called New Line if you mouse over it) and click on the "..." that appears to the right side.
+Navigate to the DirectX SDK library folder, different versions are named differently but on my system it was: C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86
+Next click on "Select Folder" and then click "Ok".
+Finally click on the "Apply" button in the bottom right of the Property Pages window.
+Now click "Ok" to close the window and your settings will be complete. From the menu click "View" and then "Solution Explorer" to return to your code. All DirectX projects should now compile fine and the error of "Cannot open include file: 'd3d11.h': No such file or directory" should disappear. Also note that these settings will automatically be applied to the Release | Win32 solution configuration so you don't need to set them there. As well it should be persistent permanently for all new projects and will never need to be setup again.
+----------------------------------------------------------------------------------------------------------------

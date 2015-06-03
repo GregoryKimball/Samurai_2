@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arte_of_Defence", "Arte_of_Defence\Arte_of_Defence.vcxproj", "{A698D91C-C78B-49E0-AEFB-F1C8BC893AC5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OBJ_Importer", "OBJ_Importer\OBJ_Importer.vcxproj", "{F1E745A5-2D03-45D8-98CC-9622DA8D96DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A698D91C-C78B-49E0-AEFB-F1C8BC893AC5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A698D91C-C78B-49E0-AEFB-F1C8BC893AC5}.Debug|Win32.Build.0 = Debug|Win32
+		{A698D91C-C78B-49E0-AEFB-F1C8BC893AC5}.Release|Win32.ActiveCfg = Release|Win32
+		{A698D91C-C78B-49E0-AEFB-F1C8BC893AC5}.Release|Win32.Build.0 = Release|Win32
+		{F1E745A5-2D03-45D8-98CC-9622DA8D96DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1E745A5-2D03-45D8-98CC-9622DA8D96DD}.Debug|Win32.Build.0 = Debug|Win32
+		{F1E745A5-2D03-45D8-98CC-9622DA8D96DD}.Release|Win32.ActiveCfg = Release|Win32
+		{F1E745A5-2D03-45D8-98CC-9622DA8D96DD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

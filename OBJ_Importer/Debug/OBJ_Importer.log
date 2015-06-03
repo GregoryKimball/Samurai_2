@@ -1,0 +1,20 @@
+﻿Build started 12/6/2014 1:17:02 PM.
+     1>Project "C:\Users\Gregory\Desktop\2014-11-29-Arte_of_Defence\OBJ_Importer\OBJ_Importer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\OBJ_Importer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\OBJ_Importer.unsuccessfulbuild".
+         Touching "Debug\OBJ_Importer.lastbuildstate".
+     1>Done Building Project "C:\Users\Gregory\Desktop\2014-11-29-Arte_of_Defence\OBJ_Importer\OBJ_Importer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

@@ -1,0 +1,74 @@
+﻿Build started 1/8/2012 4:38:55 PM.
+     1>Project "C:\Users\Gregory\Documents\Visual Studio 2010\Projects\Arte_of_Defence\Arte_of_Defence\Arte_of_Defence.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Arte_of_Defence.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt applicationclass.cpp graphicsclass.cpp main.cpp systemclass.cpp
+         applicationclass.cpp
+     1>applicationclass.cpp(222): error C2039: 'SetVideoCardInfo' : is not a member of 'TextClass'
+                 c:\users\gregory\documents\visual studio 2010\projects\arte_of_defence\arte_of_defence\textclass.h(18) : see declaration of 'TextClass'
+     1>applicationclass.cpp(394): error C2039: 'IsLeftPressed' : is not a member of 'InputClass'
+                 c:\users\gregory\documents\visual studio 2010\projects\arte_of_defence\arte_of_defence\inputclass.h(34) : see declaration of 'InputClass'
+     1>applicationclass.cpp(397): error C2039: 'IsRightPressed' : is not a member of 'InputClass'
+                 c:\users\gregory\documents\visual studio 2010\projects\arte_of_defence\arte_of_defence\inputclass.h(34) : see declaration of 'InputClass'
+     1>applicationclass.cpp(400): error C2039: 'IsUpPressed' : is not a member of 'InputClass'
+                 c:\users\gregory\documents\visual studio 2010\projects\arte_of_defence\arte_of_defence\inputclass.h(34) : see declaration of 'InputClass'
+     1>applicationclass.cpp(403): error C2039: 'IsDownPressed' : is not a member of 'InputClass'
+                 c:\users\gregory\documents\visual studio 2010\projects\arte_of_defence\arte_of_defence\inputclass.h(34) : see declaration of 'InputClass'
+     1>applicationclass.cpp(406): error C2039: 'IsAPressed' : is not a member of 'InputClass'
+                 c:\users\gregory\documents\visual studio 2010\projects\arte_of_defence\arte_of_defence\inputclass.h(34) : see declaration of 'InputClass'
+     1>applicationclass.cpp(409): error C2039: 'IsZPressed' : is not a member of 'InputClass'
+                 c:\users\gregory\documents\visual studio 2010\projects\arte_of_defence\arte_of_defence\inputclass.h(34) : see declaration of 'InputClass'
+     1>applicationclass.cpp(412): error C2039: 'IsPgUpPressed' : is not a member of 'InputClass'
+                 c:\users\gregory\documents\visual studio 2010\projects\arte_of_defence\arte_of_defence\inputclass.h(34) : see declaration of 'InputClass'
+     1>applicationclass.cpp(415): error C2039: 'IsPgDownPressed' : is not a member of 'InputClass'
+                 c:\users\gregory\documents\visual studio 2010\projects\arte_of_defence\arte_of_defence\inputclass.h(34) : see declaration of 'InputClass'
+     1>applicationclass.cpp(429): error C2039: 'SetCameraPosition' : is not a member of 'TextClass'
+                 c:\users\gregory\documents\visual studio 2010\projects\arte_of_defence\arte_of_defence\textclass.h(18) : see declaration of 'TextClass'
+     1>applicationclass.cpp(436): error C2039: 'SetCameraRotation' : is not a member of 'TextClass'
+                 c:\users\gregory\documents\visual studio 2010\projects\arte_of_defence\arte_of_defence\textclass.h(18) : see declaration of 'TextClass'
+     1>applicationclass.cpp(489): error C2660: 'TextClass::Render' : function does not take 4 arguments
+         graphicsclass.cpp
+     1>graphicsclass.cpp(371): error C2065: 'modelCount' : undeclared identifier
+     1>graphicsclass.cpp(374): error C2065: 'renderCount' : undeclared identifier
+     1>graphicsclass.cpp(377): error C2065: 'index' : undeclared identifier
+     1>graphicsclass.cpp(377): error C2065: 'index' : undeclared identifier
+     1>graphicsclass.cpp(377): error C2065: 'modelCount' : undeclared identifier
+     1>graphicsclass.cpp(377): error C2065: 'index' : undeclared identifier
+     1>graphicsclass.cpp(380): error C2065: 'index' : undeclared identifier
+     1>graphicsclass.cpp(380): error C2065: 'positionX' : undeclared identifier
+     1>graphicsclass.cpp(380): error C2065: 'positionY' : undeclared identifier
+     1>graphicsclass.cpp(380): error C2065: 'positionZ' : undeclared identifier
+     1>graphicsclass.cpp(380): error C2065: 'color' : undeclared identifier
+     1>graphicsclass.cpp(383): error C2065: 'radius' : undeclared identifier
+     1>graphicsclass.cpp(386): error C2065: 'renderModel' : undeclared identifier
+     1>graphicsclass.cpp(386): error C2065: 'positionX' : undeclared identifier
+     1>graphicsclass.cpp(386): error C2065: 'positionY' : undeclared identifier
+     1>graphicsclass.cpp(386): error C2065: 'positionZ' : undeclared identifier
+     1>graphicsclass.cpp(386): error C2065: 'radius' : undeclared identifier
+     1>graphicsclass.cpp(389): error C2065: 'renderModel' : undeclared identifier
+     1>graphicsclass.cpp(392): error C2065: 'positionX' : undeclared identifier
+     1>graphicsclass.cpp(392): error C2065: 'positionY' : undeclared identifier
+     1>graphicsclass.cpp(392): error C2065: 'positionZ' : undeclared identifier
+     1>graphicsclass.cpp(395): error C2664: 'ModelClass::Render' : cannot convert parameter 1 from 'ID3D11Device *' to 'ID3D11DeviceContext *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>graphicsclass.cpp(399): error C2065: 'color' : undeclared identifier
+     1>graphicsclass.cpp(405): error C2065: 'renderCount' : undeclared identifier
+     1>graphicsclass.cpp(409): error C2065: 'renderCount' : undeclared identifier
+         main.cpp
+         systemclass.cpp
+     1>systemclass.cpp(16): error C2065: 'm_Position' : undeclared identifier
+     1>systemclass.cpp(90): error C2065: 'm_Position' : undeclared identifier
+     1>systemclass.cpp(91): error C2065: 'm_Position' : undeclared identifier
+     1>systemclass.cpp(117): error C2065: 'm_Position' : undeclared identifier
+     1>systemclass.cpp(117): error C2065: 'm_Position' : undeclared identifier
+     1>systemclass.cpp(117): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>systemclass.cpp(117): error C2065: 'm_Position' : undeclared identifier
+     1>systemclass.cpp(195): error C2065: 'm_Position' : undeclared identifier
+     1>systemclass.cpp(195): error C2227: left of '->SetFrameTime' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>Done Building Project "C:\Users\Gregory\Documents\Visual Studio 2010\Projects\Arte_of_Defence\Arte_of_Defence\Arte_of_Defence.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.26
