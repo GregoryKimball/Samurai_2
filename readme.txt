@@ -4,7 +4,7 @@ Getting Started
 
 Welcome to Samurai 2 - a 3D sword-fighting game.  This game is based on a 
 free-motion sword-fighting concept and uses an engine based on tutorials 
-from Rastertek that are no longer available.
+from Rastertek (http://www.rastertek.com/tutdx10.html).
 
 Requires DirectX Software Development Kit.  Tested with "DXSDK_Jun10.exe" 
 from microsoft.com but more recent versions may work as well.
@@ -41,3 +41,16 @@ Press "h" to spawn team 2 characters.
 Use "[" and "]" to switch the active character controlled by the user.
 
 Move with QWEASD, swing the sword with the mouse.
+
+
+
+
+--------------------------
+Credits
+--------------------------
+
+
+Chap Percival for teaching us the tutorial library "DrawBox" in C++.  
+(https://gregorykimball.me/2014/01/02/samurai/)
+
+Shiva Raisinghani for telling me to clean up this project.
