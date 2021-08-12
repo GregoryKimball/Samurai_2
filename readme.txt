@@ -2,8 +2,9 @@
 Getting Started 
 --------------------------
 
-Welcome to Samurai 2 - a 3D sword-fighting game.  This game is based on a 
-free-motion sword-fighting concept and uses an engine based on tutorials 
+Welcome to Samurai 2 - a 3D sword-fighting game. Blog post: (https://gregorykimball.me/2014/01/15/samurai-ii/)
+
+This game is based on a free-motion sword-fighting concept and uses an engine based on tutorials 
 from Rastertek (http://www.rastertek.com/tutdx10.html).
 
 Requires DirectX Software Development Kit.  Tested with "DXSDK_Jun10.exe" 
